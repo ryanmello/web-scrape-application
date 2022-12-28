@@ -1,7 +1,6 @@
 {
   "name": "web-scrape-application",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index"
@@ -10,6 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^19.2.2"
-  }
+    "puppeteer": "^19.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanmello/web-scrape-application.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanmello/web-scrape-application/issues"
+  },
+  "homepage": "https://github.com/ryanmello/web-scrape-application#readme",
+  "description": ""
 }
