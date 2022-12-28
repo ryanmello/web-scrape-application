@@ -9,8 +9,10 @@ async function run() {
 
     //const html = await page.content();
     
-    const title = page.evaluate(() => document.title);
-    console.log(title)
+    //const title = await page.evaluate(() => document.title);
+    
+    const links = await page.evaluate(() => document.body.innerText);
+    console.log(links)
     
     await browser.close();
 }
