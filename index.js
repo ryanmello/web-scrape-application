@@ -1,20 +1,12 @@
 const puppeteer = require('puppeteer');
 
-async function run() {
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
-    await page.goto('https://www.traversymedia.com');
+async function run(){
+    //const browser = await puppeteer.launch();
+    //const page = await browser.newPage();
+    //await page.goto('https://www.traverymedia.com');
 
-    //await page.screenshot({ path: 'example.png' });
-
-    //const html = await page.content();
-    
-    //const title = await page.evaluate(() => document.title);
-    
-    const links = await page.evaluate(() => document.body.innerText);
-    console.log(links)
-    
-    await browser.close();
+    console.log(123)
+    //await browser.close();
 }
 
 run();
